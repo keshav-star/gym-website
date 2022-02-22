@@ -1,0 +1,212 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.bcg{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.navbar1
+{
+    position: fixed;
+    background-color: rgb(29, 27, 27,0.9);
+    padding: 15px;
+    top: 10px;
+    width: 95%;
+    border-radius: 25px;
+    border-bottom: 7px solid rgb(40, 122, 133);
+}
+
+h3
+{
+    color: black;
+}
+.nav
+{
+    display: flex;
+    margin-left: 20%;
+}
+.navbar1 li
+{
+    justify-content: center;
+    list-style: none;
+    padding-left: 35px;
+}
+.navbar1 a
+{
+    font-size: 25px;
+    margin: 9px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar1 li :hover
+{
+    color: cornflowerblue;
+}
+.container{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.con1{
+    padding: 10px;
+    background-color: rgb(122, 184, 209,0.45);
+    border-radius: 0 15px 15px 0;
+}
+.welcomemessage{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.op{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+    margin-top: 12px;
+    font-size: 20px;
+
+}
+.op:hover{
+    color: brown;
+    text-shadow: 2px 1px black;
+}
+.con2
+{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.member
+{
+    position: relative;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(146, 116, 145, 0.4);
+    margin-top: 35px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 8%;
+}
+.mem
+{
+    position: relative;
+    /* left: 20%; */
+    /* top: 5%; */
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+#footer {
+    padding: 13px 10px 0px 10px;
+    height: 40px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* margin-top: auto;  */
+    background: rgba(116, 102, 102, 0.6);
+    text-align: center;
+    /* width: 98.7%;  */
+}
+
+.con3{
+    
+    float: right;
+}
+.review{
+
+    background-color: rgb(5, 5, 5,0.4);
+    margin: 10px;
+    width: 200px;
+    height: 170px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.checked {
+    color: gold;
+  }
+.fas{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.name{
+    margin: 9px;
+}
+.fa{
+    margin-left: 7px;
+}
+.saids{
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  height:300px; 
+    width:500px;
+    position: absolute;
+    left:35%;
+    top:50%
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

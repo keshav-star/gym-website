@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+        }
+
+        .prd {
+            width: 24vw;
+            margin: 20px auto;
+        }
+
+        .image {
+            width: 24vw;
+            height: 22vw;
+            background-color: rgb(196, 227, 255, 0.6);
+            border: 2px solid rgb(23, 197, 102);
+            box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .price {
+            float: right;
+            font-size: 20px;
+            background-color: white;
+        }
+
+        .bt {
+            font-size: 15px;
+            border: 2px solid rgb(6, 217, 224);
+            box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .bt:hover {
+            background-color: grey;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Choose from a wide variety of Other Products</h2>
+
+
+    <div class="grid">
+        <div class="prd">
+            <img class="image" src="pics/s1.jpg">
+            <div class="buydetails">
+                <button onclick="alert('Added to Cart')" class="bt">ADD TO CART</button>
+                <span class="price">$2</span>
+            </div>
+        </div>
+        <div class="prd">
+            <img class="image" src="pics/s2.jpg">
+            <div class="buydetails">
+                <button onclick="alert('Added to Cart')" class="bt">ADD TO CART</button>
+                <span class="price">$2</span>
+            </div>
+        </div>
+        <div class="prd">
+            <img class="image" src="pics/s3.jpg">
+            <div class="buydetails">
+                <button onclick="alert('Added to Cart')" class="bt">ADD TO CART</button>
+                <span class="price">$2</span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
